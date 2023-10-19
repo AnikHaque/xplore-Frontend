@@ -19,7 +19,7 @@ const itemsPerPage = 3;
 const AllCategory = () => {
   const [startIndex, setStartIndex] = useState(0);
 
-  //!Get All Category
+  
   const { data: categoryData } = useCategoriesQuery({});
   console.log(categoryData);
 
