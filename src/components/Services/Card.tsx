@@ -10,7 +10,7 @@ import { getUserInfo } from "@/services/auth.service";
 import { message } from "antd";
 const Card = ({ service }: any) => {
   const [isInWishlist, setIsInWishlist] = useState(false);
-  // console.log(service);
+
   const { thumbnail, propertyName, propertyLocation, ratings, price, _id } =
     service;
   const [addToCart, { isLoading, error }] = useAddToCartMutation();
