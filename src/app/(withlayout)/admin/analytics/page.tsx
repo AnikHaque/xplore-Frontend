@@ -9,7 +9,7 @@ const page = () => {
         description="StudySync is a platform for students to learn and get help from teachers"
         keywords="Programming, MERN, Redux, Machine Learning"
       />
-      {/* <AllInvoices /> */}
+      
       <h1>In voices</h1>
     </div>
   );
