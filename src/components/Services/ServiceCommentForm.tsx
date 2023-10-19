@@ -10,7 +10,7 @@ const ServiceCommentForm = ({ onSubmitReview, isQuestion }: any) => {
   const { userId } = getUserInfo() as any;
   const onSubmit = (data: any) => {
     console.log(data);
-    // Call the onSubmit callback with the comment data
+    
     onSubmitReview(data);
     reset();
   };
