@@ -13,7 +13,7 @@ const Header = () => {
   const user = getUserInfo() as any;
 
   const { data, error } = useLoadUserQuery(user?.userId);
-  // console.log(data);
+  
   return (
     <div
       className=" z-40 w-full border-b  mb-2"
