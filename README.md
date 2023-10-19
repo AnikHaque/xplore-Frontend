@@ -15,7 +15,7 @@ To run Hotel Haven successfully, you'll need to set up the following credentials
 
 - **Admin**:
 
-  - Email: lionelarafat@gmail.com
+  - Email:createadmin@gmail.com
   - password: 123456
 
 ## Technologies Used
