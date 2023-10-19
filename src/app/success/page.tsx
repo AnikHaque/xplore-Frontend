@@ -9,7 +9,7 @@ import { useLoadUserQuery } from "@/redux/slices/user/userApi";
 
 const SuccessPage = ({ searchParams }: Record<string, any>) => {
   const { serviceId } = searchParams;
-  //   console.log(serviceId);
+ 
   const { userId } = getUserInfo() as any;
   const { data } = useLoadUserQuery(userId);
   //   console.log(data);
