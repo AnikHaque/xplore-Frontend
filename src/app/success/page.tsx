@@ -12,7 +12,7 @@ const SuccessPage = ({ searchParams }: Record<string, any>) => {
  
   const { userId } = getUserInfo() as any;
   const { data } = useLoadUserQuery(userId);
-  //   console.log(data);
+ 
   return (
     <>
       <Header />
