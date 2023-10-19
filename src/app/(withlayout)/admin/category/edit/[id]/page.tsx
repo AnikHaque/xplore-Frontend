@@ -128,7 +128,7 @@ const UpdateCategory = ({ params }: any) => {
                     onChange={handleFileChange}
                   />
 
-                  {/* Drag-and-Drop Container */}
+               
                   <label
                     htmlFor="file"
                     className={`w-full min-h-[10vh] border rounded-lg p-3 border-dashed border-gray-300 ${

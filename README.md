@@ -4,20 +4,6 @@ Hotel Haven is a booking management website built using modern technologies to s
 
 ## Live URL: https://hotel-haven-seven.vercel.app
 
-## Credentials
-
-To run Hotel Haven successfully, you'll need to set up the following credentials:
-
-- **Super Admin**:
-
-  - Email: yeasinarafat1734@gmail.com
-  - password: 123456
-
-- **Admin**:
-
-  - Email:createadmin@gmail.com
-  - password: 123456
-
 ## Technologies Used
 
 - **Backend**:
