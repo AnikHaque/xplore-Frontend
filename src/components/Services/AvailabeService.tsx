@@ -23,7 +23,7 @@ const itemsPerPage = 3;
 const ServiceSection = () => {
   const [startIndex, setStartIndex] = useState(0);
 
-  //!Available Service Data
+
   const { data: availableServiceData } = useServicesQuery({});
 
   const availableServices = availableServiceData?.services?.filter(
