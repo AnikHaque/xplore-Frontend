@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background: rgb(39, 33, 149);
+  background: linear-gradient(
+    90deg,
+    rgba(39, 33, 149, 1) 0%,
+    rgba(18, 17, 64, 1) 0%
+  );
+  color: white;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
