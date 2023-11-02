@@ -1,19 +1,8 @@
-import { Row, Space, Spin } from "antd";
+import Loader from "@/components/Shared/Loader";
+import { Spin } from "antd";
 
-const Loading = () => {
-  return (
-    <Row
-      justify="center"
-      align="middle"
-      style={{
-        height: "100vh",
-      }}
-    >
-      <Space>
-        <Spin tip="Loading" size="large"></Spin>
-      </Space>
-    </Row>
-  );
+const loading = () => {
+  return <Loader />;
 };
 
-export default Loading;
+export default loading;

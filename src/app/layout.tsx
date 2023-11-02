@@ -1,11 +1,17 @@
+import Providers from "@/lib/Providers";
 import "./globals.css";
 import type { Metadata } from "next";
 
-import Providers from "@/lib/Provider";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+import "leaflet/dist/leaflet.css";
+import "react-day-picker/dist/style.css";
 
 export const metadata: Metadata = {
-  title: "HotelHaven",
-  description: "This is a Hotel Booking Website",
+  title: "Xplore",
+  description: "Travel Agency Service",
 };
 
 export default function RootLayout({
@@ -15,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <Providers>
-      <html lang="en" suppressHydrationWarning={true}>
+      <html lang="en">
         <body>{children}</body>
       </html>
     </Providers>
